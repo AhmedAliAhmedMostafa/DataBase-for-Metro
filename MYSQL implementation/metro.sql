@@ -8,7 +8,7 @@ CREATE TABLE Employee(
     AGE TINYINT ,
     FNAME CHAR(50),
     LNAME CHAR(50),
-    SALARY DECIMAL ,
+    SALARY FLOAT ,
     JOBTYPE CHAR,
     FINANCIAL_RANK TINYINT,
     GUN_LISENCE VARCHAR(100),
@@ -19,7 +19,7 @@ CREATE TABLE Employee(
 );
 CREATE TABLE metro_line(
     ID int NOT NULL ,
-    ticket_price DECIMAL,
+    ticket_price FLOAT,
     start_station char(50),
     end_station char(50),
     PRIMARY KEY(ID)
