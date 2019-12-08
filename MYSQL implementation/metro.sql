@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---CREATION SCRIPT FOR METRO DB HAVING MAIN (12) PROJECT TABELS
+--CREATION SCRIPT FOR METRO DB HAVING MAIN (11) PROJECT TABELS
 ------------------------------------------------------------
 CREATE DATABASE metro_db;
 USE metro_db;
