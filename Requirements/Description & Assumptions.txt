@@ -21,7 +21,7 @@ Attributes:
     ticket has price and unique id 
  
 /*Subscribor*/
-for each subscribor it is required to keep track of its unique id,first-name,last-name
+for each subscribor it is required to keep track of its unique id,first-name,last-name and expiration date of subscribtion
 a subscribor could be militart,eldery or student
 for student we keep track of school name 
 for eldery we keep track of age
@@ -35,9 +35,11 @@ for military we keep track of his/her organization(e.g. army,police,......)
  for eaach train driiver there is only one assistant for each one of them we keep track of the driver ssn and assistant name 
  Relations:
  -each line cconsist of many stations and station could belong to many lines (point of intersections)
+ -a line could intersects with many other line it is required to keep track of point of intersection
  -each line consist of number of trains operating in it but each train operates only in one line 
  -each ticket is purchased in one station 
  -each train reside in only one garage station,but agarage station contains many trains
  -station could have many subscribors,and subscribor could subscribe in many stations
  -each train drivers drives only one train
  -each employee work in one line 
+ -each station manager could manage many stations but the station has only one manager 
